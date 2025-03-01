@@ -1,0 +1,14 @@
+public class Libro {
+    private String titulo;
+    private String autor;
+    public String ObtenerTitulo() {
+        return titulo;
+    }
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+    public void mostrarDetalles() {
+        System.out.println("Libro: " + ObtenerTitulo());
+        System.out.println("Autor: " + autor);
+    }
+}
