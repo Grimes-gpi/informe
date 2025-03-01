@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        Persona persona1 = new Persona();
+        persona1.nombre = "Christhian";
+        persona1.edad = 25;
+        persona1.saludar();
+
+        Carro carro1 = new Carro();
+        carro1.marca = "Chevrolet";
+        carro1.velocidad = 0;
+        carro1.acelerar(); //
+        System.out.println("Velocidad del carro: " + carro1.velocidad);
+    }
+}
